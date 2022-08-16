@@ -2,8 +2,12 @@ body {
     background: gainsboro ;
     margin:0px;
 }
+div{
+    box-sizing: border-box;
+}
 header{
     background: white;
+    text-align: center;
 }
 
 header h1{
@@ -15,12 +19,28 @@ div.container{
     width: 600px;
     margin:auto;
 }
-div.post1{
+div.post{
     background: white;
+    margin-bottom: 30px;
 }
-div.post1 img{
+div.post img{
     width: 100%;
 }
-div.post1 h2, div.post1 p {
+div.post h2, div.post p {
     padding: 10px;
+    margin: 0px;
+}
+div.post-header{
+    margin-top: 10px;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
 }
